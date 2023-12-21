@@ -43,7 +43,7 @@ body{
     position: relative;
     width: 48%;
     height: 50px;
-    margin: 13px 0px;
+    margin: 14px 0px;
 }
 
 .input_field input{
@@ -92,7 +92,7 @@ body{
     cursor: pointer;
     font-size: 16px;
     color: #333;
-    font-weight: 600;
+    font-weight: 650;
 }
 
 @media (max-width:576px){
