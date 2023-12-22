@@ -2,6 +2,8 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import login from './login.css';
+
 
 
 
@@ -30,8 +32,34 @@ const Header = () => {
 
                         </div>
                     </Nav>
+                    
                 </Container>
             </Navbar>
+            <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input_box">
+              
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <div class="input_box">
+                
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <div class="remember_forgot">
+           
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button class="btn" type="submit">Login</button>
+
+            <div class="register_link">
+                <p>Don't have an account?<a href="registration.html">Register</a></p>
+            </div>
+        </form>
+    </div>
         </>
     )
 }
