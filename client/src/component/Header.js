@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import login from './login.css';
+import { Button, Col, Form, Row } from "react-bootstrap";
 
 
 
@@ -28,38 +29,58 @@ const Header = () => {
                             <Nav.Link href="#pricing">Pricing</Nav.Link>
                         </div>
                         <div>
-                        <button type="button" class="btn btn-dark">Dark</button>
+                            <button type="button" class="btn btn-dark">Dark</button>
 
                         </div>
                     </Nav>
-                    
+
                 </Container>
             </Navbar>
             <div class="wrapper">
-        <form action="">
-            <h1>Login</h1>
-            <div class="input_box">
-              
-                <i class="fa-solid fa-user"></i>
-            </div>
+                <form action="">
+                    <h1>Login</h1>
+                    <div class="input_box">
 
-            <div class="input_box">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+
+                    <div class="input_box">
+
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+
+                    <div class="remember_forgot">
+
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                    <button class="btn" type="submit">Login</button>
+
+                    <div class="register_link">
+                        <p>Don't have an account?<a href="registration.html">Register</a></p>
+                    </div>
+                </form>
                 
-                <i class="fa-solid fa-lock"></i>
+                    <Container className="mt-5">
+                        <Row>
+                            <Col sm={4}>
+                                <Form className="d-flex">
+                                    <Form.Control
+                                        type="search"
+                                        placeholder="Search"
+                                        className="me-2"
+                                        aria-label="Search"
+                                    />
+                                    <Button>
+                                        Search
+                                    </Button>
+                                </Form>
+                            </Col>
+                        </Row>
+                    </Container>
+                
             </div>
 
-            <div class="remember_forgot">
-           
-                <a href="#">Forgot password?</a>
-            </div>
-
-            <button class="btn" type="submit">Login</button>
-
-            <div class="register_link">
-                <p>Don't have an account?<a href="registration.html">Register</a></p>
-            </div>
-        </form>
-    </div>
         </>
     )
 }
