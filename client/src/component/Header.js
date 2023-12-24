@@ -61,29 +61,13 @@ const Header = () => {
                     </div>
                 </form>
 
-                <Container className="mt-5">
-                    <Row>
-                        <Col sm={4}>
-                            <Form className="d-flex">
-                                <Form.Control
-                                    type="search"
-                                    placeholder="Search"
-                                    className="me-2"
-                                    aria-label="Search"
-                                />
-                                <Button>
-                                    Search
-                                </Button>
-                            </Form>
-                        </Col>
-                    </Row>
-                </Container>
+                
 
             </div>
             <>
-                <Button variant="info">Info</Button>{' '}
-                <Button variant="light">Light</Button>{' '}
-                <Button variant="dark" size="lg">Dark</Button>
+                <Button variant="info" style={{width:'200px',cursor:'pointer',display:'flex',justifyContent:'center',alignItems:'center'}}>Info</Button>{' '}
+                <Button variant="light" style={{width:'200px',cursor:'pointer',display:'flex',justifyContent:'center',alignItems:'center'}}>Light</Button>{' '}
+                <Button variant="dark" style={{width:'200px',cursor:'pointer',display:'flex',justifyContent:'center',alignItems:'center'}} size="lg">Dark</Button>
             </>
         </>
     )
