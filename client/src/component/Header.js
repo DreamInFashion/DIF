@@ -13,9 +13,9 @@ const Header = () => {
     return (
 
         <>
-            <Navbar bg="light" data-bs-theme="light">
+            <Navbar bg="light" data-bs-theme="light" style={{border: '4px solid rgba(0, 0, 0, 0.5)',borderRadius:'10px'}}>
                 <Container>
-                    <div>
+                    <div >
 
                         <h2 className='nt-2 h2_right' style={{ color: "#002147" }}><Nav.Link href="#home">Dream In Fashion</Nav.Link></h2>
 
@@ -30,8 +30,7 @@ const Header = () => {
                             <Nav.Link href="#pricing">Pricing</Nav.Link>
                         </div>
                         <div>
-                            <button type="button" class="btn btn-dark">Dark</button>
-
+                            <button type="button" class="btn btn-dark" size="lg">Dark</button>
                         </div>
                     </Nav>
 

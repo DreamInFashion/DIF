@@ -10,10 +10,10 @@ const Home = () => {
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Explore some of our latest brand collections at your fingertips at just the 
+          lowest possible prices!
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Shop Now</Button>
       </Card.Body>
     </Card>
     
