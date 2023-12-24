@@ -57,7 +57,7 @@ const Header = () => {
                     <button class="btn" type="submit">Login</button>
 
                     <div class="register_link">
-                        <p>Don't have an account?<a href="registration.html">Register</a></p>
+                        <p>Don't have an account?<a href="#">Register</a></p>
                     </div>
                 </form>
 
@@ -65,9 +65,9 @@ const Header = () => {
 
             </div>
             <>
-                <Button variant="info" style={{width:'200px',cursor:'pointer',display:'flex',justifyContent:'center',alignItems:'center'}}>Info</Button>{' '}
-                <Button variant="light" style={{width:'200px',cursor:'pointer',display:'flex',justifyContent:'center',alignItems:'center'}}>Light</Button>{' '}
-                <Button variant="dark" style={{width:'200px',cursor:'pointer',display:'flex',justifyContent:'center',alignItems:'center'}} size="lg">Dark</Button>
+                <Button variant="info" style={{width:'200px',cursor:'pointer'}} size='lg'>Shop Now</Button>{' '}
+                <Button variant="light" style={{width:'200px',cursor:'pointer'}} size='lg'>Deliver</Button>{' '}
+                <Button variant="dark" style={{width:'200px',cursor:'pointer'}} size="lg">Scan any QR</Button>
             </>
         </>
     )
