@@ -2,6 +2,7 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+
 const Home = () => {
   return (
     <Card style={{ width: '18rem' }}>
@@ -15,7 +16,7 @@ const Home = () => {
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
-
+    
   )
 }
 
